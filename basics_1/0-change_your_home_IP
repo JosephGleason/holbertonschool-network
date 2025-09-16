@@ -2,3 +2,5 @@
 # this script configures an ubuntu server with below req
 echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts
 echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts
+
+# or sudo sed -i 's/127.0.0.1.*localhost/127.0.0.2 localhost/' /etc/hosts
